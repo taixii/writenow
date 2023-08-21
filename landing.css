@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "LINE Seed Sans KR";
+    src: url("fonts/LINE_Seed_Sans_KR/TTF/LINESeedKR-Th.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "LINE Seed Sans KR";
+    src: url("fonts/LINE_Seed_Sans_KR/Webfont/WOFF/LINESeedKR-Th.woff") format("woff");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "LINE Seed Sans KR";
+    src: url("fonts/LINE_Seed_Sans_KR/TTF/LINESeedKR-Rg.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "LINE Seed Sans KR";
+    src: url("fonts/LINE_Seed_Sans_KR/Webfont/WOFF/LINESeedKR-Rg.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "LINE Seed Sans KR";
+    src: url("fonts/LINE_Seed_Sans_KR/TTF/LINESeedKR-Bd.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "LINE Seed Sans KR";
+    src: url("fonts/LINE_Seed_Sans_KR/Webfont/WOFF/LINESeedKR-Bd.woff") format("woff");
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "LINE Seed Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.container {
+    background: linear-gradient(180deg, #FFF 0%, rgba(0, 113, 189, 0.70) 100%);
+    mix-blend-mode: darken;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 18px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-size: 16px;
+    width: 223px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav > a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 182px;
+}
+
+.landing-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-content-1 {
+    font-size: 30px;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.landing-content-2 {
+    font-size: 48px;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.landing-content-2 > span {
+    color: #187fc4;
+}
+
+.landing-content-3 {
+    text-align: center;
+    font-size: 13px;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 57px;
+    line-height: 24px;
+}
+
+
+.get-started-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 48px;
+    background-color: #ffffff;
+    color: #474747;
+    border-radius: 39px;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
